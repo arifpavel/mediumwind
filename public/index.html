@@ -12,308 +12,322 @@
     <!-- site container -->
     <div class="text-gray-600">
         <!-- site header -->
-        <header class="sticky top-0 flex items-center justify-between p-4 bg-yellow-400 border-b border-black md:px-16">
-            <div id="logo" class="flex flex-grow w-40 max-w-xs text-black">
-                <svg class="w-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z" /></svg>
-                <span class="text-4xl text-bold">Mediumwind</span>
+        <div class="flow-root bg-yellow-400 border-b border-black">
+            <div class="container">
+
+                <header class="sticky top-0 flex items-center justify-between p-4 md:px-16">
+                    <div id="logo" class="flex flex-grow w-40 max-w-xs text-black">
+                        <svg class="w-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z" /></svg>
+                        <span class="text-4xl text-bold">Mediumwind</span>
+                    </div>
+                    <nav id="menu" class="flex text-sm">
+                        <div class="space-x-8 text-black">
+                            <a href="#" class="hidden md:inline-block hover:text-black-900">Our Story</a>
+                            
+                            <a href="#" class="hidden md:inline-block hover:text-black-900">Membership</a>
+
+                            <a href="#" class="hidden md:inline-block hover:text-black-900">Write</a>
+
+                            <a href="#" class="hidden md:inline-block hover:text-black-500">Sign in</a>
+
+                            <a href="#" class="px-4 py-3 text-gray-100 bg-black rounded xs:block hover:text-gray-100 ">Get
+                                Started</a>
+
+                        </div>
+                    </nav>
+                </header>
             </div>
-            <nav id="menu" class="flex text-sm">
-                <div class="space-x-8 text-black">
-                    <a href="#" class="hidden md:inline-block hover:text-black-900">Our Story</a>
-                    
-                    <a href="#" class="hidden md:inline-block hover:text-black-900">Membership</a>
-
-                    <a href="#" class="hidden md:inline-block hover:text-black-900">Write</a>
-
-                    <a href="#" class="hidden md:inline-block hover:text-black-500">Sign in</a>
-
-                    <a href="#" class="px-4 py-3 text-gray-100 bg-black rounded xs:block hover:text-gray-100 ">Get
-                        Started</a>
-
-                </div>
-            </nav>
-        </header>
+        </div>
         <!-- site header end-->
         <!-- welcome section -->
-        <div
-            class="flex items-center justify-between p-6 overflow-hidden bg-yellow-400 border-b border-gray-600 h-3/5 md:px-16">
-            <div id="welcome-text" class="text-black">
-                <h1 class="mb-4 text-3xl md:text-6xl">Explore new <br> perspectives</h1>
-                <p class="mb-6 text-lg">
-                    Read and share ideas from independent voices, world-class publications, and experts from around the
-                    globe. Everyone's welcome. Learn more.
-                </p>
+        <div class="flow-root bg-yellow-400 border-b border-gray-600">
+            <div class="container">
+                <div
+                    class="flex items-center justify-between p-6 overflow-hidden h-3/5 md:px-16">
+                    <div id="welcome-text" class="text-black">
+                        <h1 class="mb-4 text-3xl md:text-6xl">Explore new <br> perspectives</h1>
+                        <p class="mb-6 text-lg">
+                            Read and share ideas from independent voices, world-class publications, and experts from around the
+                            globe. Everyone's welcome. Learn more.
+                        </p>
+        
+                        <a href="#" class="px-6 py-3 text-black border border-black rounded xs:block text-md btn ">Get
+                            Started</a>
+                    </div>
+                    <div id="welcome-icon" class="items-center">
+                        <img class="object-cover h-auto" src="img/world.svg" alt="world">
+                    </div>
+                </div>
 
-                <a href="#" class="px-6 py-3 text-black border border-black rounded xs:block text-md btn ">Get
-                    Started</a>
-            </div>
-            <div id="welcome-icon" class="items-center">
-                <img class="object-cover h-auto" src="img/world.svg" alt="world">
             </div>
         </div>
         <!-- welcome section end -->
         <!-- main content section -->
-        <main id="content" class="pt-4 ">
-            <!-- Tranding now -->
-            <div id="tranding" class="px-4 border-b border-gray-300 md:px-16 md:py-10">
-                <h2 class="text-xs font-bold text-black uppercase"> <img src="img/tranding.svg" alt="tranding"
-                        class="inline mr-2 text-center"> Trending on Medium</h2>
-                <div id="tranding-list" class="grid grid-cols-1 md:grid-cols-3">
-                    <!-- tranding style card -->
-                    <div id="card" class="flex justify-start">
-                        <div id="serial">
-                            <span class="mr-5 text-3xl text-gray-300">01</span>
-                        </div>
-                        <div id="content" class="">
-                            <span class="text-sm leading-8 text-black"> <a href="#"><img
-                                        src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
-                                </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
-                            <div class="font-bold text-black">
-                                <a href="#">I created my own YouTube algorithm (to stop me wasting time)</a>
+        <div class="flow-root">
+            <div class="container">
+                <main id="content" class="pt-4 ">
+                    <!-- Tranding now -->
+                    <div id="tranding" class="px-4 border-b border-gray-300 md:px-16 md:py-10">
+                        <h2 class="text-xs font-bold text-black uppercase"> <img src="img/tranding.svg" alt="tranding"
+                                class="inline mr-2 text-center"> Trending on Medium</h2>
+                        <div id="tranding-list" class="grid grid-cols-1 md:grid-cols-3">
+                            <!-- tranding style card -->
+                            <div id="card" class="flex justify-start">
+                                <div id="serial">
+                                    <span class="mr-5 text-3xl text-gray-300">01</span>
+                                </div>
+                                <div id="content" class="">
+                                    <span class="text-sm leading-8 text-black"> <a href="#"><img
+                                                src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
+                                        </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
+                                    <div class="font-bold text-black">
+                                        <a href="#">I created my own YouTube algorithm (to stop me wasting time)</a>
+                                    </div>
+                                    <div class="text-sm leading-8 text-gray-600">
+                                        Nov 23 · 9 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="text-sm leading-8 text-gray-600">
-                                Nov 23 · 9 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
+                            <!-- tranding style card end -->
+                            <!-- tranding style card -->
+                            <div id="card" class="flex justify-start p-1 ">
+                                <div id="serial">
+                                    <span class="mr-5 text-3xl text-gray-300">02</span>
+                                </div>
+                                <div id="content" class="">
+                                    <span class="text-sm leading-8 text-black"> <a href="#"><img
+                                                src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
+                                        </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
+                                    <div class="font-bold text-black">
+                                        <a href="#">I created my own YouTube algorithm (to stop me wasting time)</a>
+                                    </div>
+                                    <div class="text-sm leading-8 text-gray-600">
+                                        Nov 23 · 9 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
+                                    </div>
+                                </div>
                             </div>
+                            <!-- tranding style card end -->
+                            <!-- tranding style card -->
+                            <div id="card" class="flex justify-start p-1 ">
+                                <div id="serial">
+                                    <span class="mr-5 text-3xl text-gray-300">03</span>
+                                </div>
+                                <div id="content" class="">
+                                    <span class="text-sm leading-8 text-black"> <a href="#"><img
+                                                src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
+                                        </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
+                                    <div class="font-bold text-black">
+                                        <a href="#">I created my own YouTube algorithm (to stop me wasting time)</a>
+                                    </div>
+                                    <div class="text-sm leading-8 text-gray-600">
+                                        Nov 23 · 9 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- tranding style card end -->
+                            <!-- tranding style card -->
+                            <div id="card" class="flex justify-start p-1 ">
+                                <div id="serial">
+                                    <span class="mr-5 text-3xl text-gray-300">04</span>
+                                </div>
+                                <div id="content" class="">
+                                    <span class="text-sm leading-8 text-black"> <a href="#"><img
+                                                src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
+                                        </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
+                                    <div class="font-bold text-black">
+                                        <a href="#">I created my own YouTube algorithm (to stop me wasting time)</a>
+                                    </div>
+                                    <div class="text-sm leading-8 text-gray-600">
+                                        Nov 23 · 9 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- tranding style card end -->
+                            <!-- tranding style card -->
+                            <div id="card" class="flex justify-start p-1 ">
+                                <div id="serial">
+                                    <span class="mr-5 text-3xl text-gray-300">05</span>
+                                </div>
+                                <div id="content" class="">
+                                    <span class="text-sm leading-8 text-black"> <a href="#"><img
+                                                src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
+                                        </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
+                                    <div class="font-bold text-black">
+                                        <a href="#">I created my own YouTube algorithm (to stop me wasting time)</a>
+                                    </div>
+                                    <div class="text-sm leading-8 text-gray-600">
+                                        Nov 23 · 9 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- tranding style card end -->
+                            <!-- tranding style card -->
+                            <div id="card" class="flex justify-start p-1 ">
+                                <div id="serial">
+                                    <span class="mr-5 text-3xl text-gray-300">06</span>
+                                </div>
+                                <div id="content" class="">
+                                    <span class="text-sm leading-8 text-black"> <a href="#"><img
+                                                src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
+                                        </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
+                                    <div class="font-bold text-black">
+                                        <a href="#">I created my own YouTube algorithm (to stop me wasting time)</a>
+                                    </div>
+                                    <div class="text-sm leading-8 text-gray-600">
+                                        Nov 23 · 9 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- tranding style card end -->
                         </div>
                     </div>
-                    <!-- tranding style card end -->
-                    <!-- tranding style card -->
-                    <div id="card" class="flex justify-start p-1 ">
-                        <div id="serial">
-                            <span class="mr-5 text-3xl text-gray-300">02</span>
-                        </div>
-                        <div id="content" class="">
-                            <span class="text-sm leading-8 text-black"> <a href="#"><img
-                                        src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
-                                </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
-                            <div class="font-bold text-black">
-                                <a href="#">I created my own YouTube algorithm (to stop me wasting time)</a>
+                    <!-- Tranding now end -->
+                    <!-- 2 columns -->
+                    <div id="2-columns" class="grid grid-cols-1 px-4 py-10 md:grid-cols-3 md:px-16">
+                        <!-- Blog List -->
+                        <div id="blog-list" class="col-span-2 mb-4 border-b md:pr-10 md:border-b-0">
+                            <!-- Blog post card -->
+                            <div class="flex p-1 mb-6 flex-between justify-items-center">
+                                <div class="overflow-hidden">
+                                    <span class="text-xs text-black md:text-sm"> <a href="#"><img
+                                                src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
+                                        </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
+                                    <div id="content">
+                                        <h2 class="text-xs font-bold text-black md:text-2xl">20 Things Most People Learn Too
+                                            Late In Life</h2>
+                                        <div class="mb-2">
+                                            Life is a journey of twists and turns, peaks and valleys, mountains to climb and
+                                            oceans to explore.
+                                        </div>
+                                        <div class="text-xs text-gray-600">
+                                            Oct 16 · 5 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
+                                            <img src="img/bookmark.svg" alt="bookmark" class="inline float-right text-gray-600">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items-center px-5">
+                                    <img class="object-cover w-full h-full" src="http://lorempixel.com/300/200" alt="blog">
+                                </div>
                             </div>
-                            <div class="text-sm leading-8 text-gray-600">
-                                Nov 23 · 9 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
+                            <!-- Blog post card end -->
+                            <!-- Blog post card -->
+                            <div class="flex p-1 mb-6 flex-between justify-items-center">
+                                <div class="">
+                                    <span class="text-xs text-black md:text-sm"> <a href="#"><img
+                                                src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
+                                        </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
+                                    <div id="content">
+                                        <h2 class="text-xs font-bold text-black md:text-2xl">20 Things Most People Learn Too
+                                            Late In Life</h2>
+                                        <div class="mb-2">
+                                            Life is a journey of twists and turns, peaks and valleys, mountains to climb and
+                                            oceans to explore.
+                                        </div>
+                                        <div class="text-xs text-gray-600">
+                                            Oct 16 · 5 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
+                                            <img src="img/bookmark.svg" alt="bookmark" class="inline float-right text-gray-600">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items-center px-5">
+                                    <img class="object-cover w-full h-full" src="http://lorempixel.com/300/200" alt="blog">
+                                </div>
                             </div>
+                            <!-- Blog post card end -->
+                            <!-- Blog post card -->
+                            <div class="flex p-1 mb-6 flex-between justify-items-center">
+                                <div class="">
+                                    <span class="text-xs text-black md:text-sm"> <a href="#"><img
+                                                src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
+                                        </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
+                                    <div id="content">
+                                        <h2 class="text-xs font-bold text-black md:text-2xl">20 Things Most People Learn Too
+                                            Late In Life</h2>
+                                        <div class="mb-2">
+                                            Life is a journey of twists and turns, peaks and valleys, mountains to climb and
+                                            oceans to explore.
+                                        </div>
+                                        <div class="text-xs text-gray-600">
+                                            Oct 16 · 5 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
+                                            <img src="img/bookmark.svg" alt="bookmark" class="inline float-right text-gray-600">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items-center px-5">
+                                    <img class="object-cover w-full h-full" src="http://lorempixel.com/300/200" alt="blog">
+                                </div>
+                            </div>
+                            <!-- Blog post card end -->
+                            <!-- Blog post card -->
+                            <div class="flex p-1 mb-6 flex-between justify-items-center">
+                                <div class="">
+                                    <span class="text-xs text-black md:text-sm"> <a href="#"><img
+                                                src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
+                                        </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
+                                    <div id="content">
+                                        <h2 class="text-xs font-bold text-black md:text-2xl">20 Things Most People Learn Too
+                                            Late In Life</h2>
+                                        <div class="mb-2">
+                                            Life is a journey of twists and turns, peaks and valleys, mountains to climb and
+                                            oceans to explore.
+                                        </div>
+                                        <div class="text-xs text-gray-600">
+                                            Oct 16 · 5 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
+                                            <img src="img/bookmark.svg" alt="bookmark" class="inline float-right text-gray-600">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items-center px-5">
+                                    <img class="object-cover w-full h-full" src="http://lorempixel.com/300/200" alt="blog">
+                                </div>
+                            </div>
+                            <!-- Blog post card end -->
+        
                         </div>
+                        <!-- Blog list end -->
+                        <div id="sidebar" class="px-10">
+                            <div class="md:sticky top-1/4">
+                                <!-- Tags -->
+                                <div id="tags" class="mb-8 border-b">
+                                    <h2 class="text-xs font-bold text-black">DISCOVER MORE OF WHAT MATTERS TO YOU</h2>
+                                    <div class="flex flex-wrap flex-grow mb-4 space-x-1 space-y-1">
+                                        <a href="#"
+                                            class="px-3 py-2 text-sm text-gray-500 border border-gray-300 rounded ">Self</a>
+                                        <a href="#"
+                                            class="px-3 py-2 text-sm text-gray-500 border border-gray-300 rounded ">Relationships</a>
+                                        <a href="#" class="px-3 py-2 text-sm text-gray-500 border border-gray-300 rounded ">Data
+                                            Science</a>
+                                        <a href="#"
+                                            class="px-3 py-2 text-sm text-gray-500 border border-gray-300 rounded ">Programming</a>
+                                        <a href="#"
+                                            class="px-3 py-2 text-sm text-gray-500 border border-gray-300 rounded ">Health</a>
+                                    </div>
+                                    <a href="#" class="text-green-700">See all topics</a>
+                                </div>
+                                <!-- Tags end -->
+                                <!-- sidebar footer -->
+                                <div id="sidebar-footer" class="text-gray-500 font-sherif">
+                                    <ul class="flex flex-wrap space-x-5">
+                                        <li> <a href="#">Help</a> </li>
+                                        <li> <a href="#">Status</a> </li>
+                                        <li> <a href="#">Writters</a></li>
+                                        <li> <a href="#">Blog</a></li>
+                                        <li> <a href="#">Carrers</a></li>
+                                        <li> <a href="#">Privacy</a></li>
+                                        <li> <a href="#">Terms</a></li>
+                                        <li> <a href="#">About</a></li>
+                                    </ul>
+                                </div>
+                                <!-- sidebar footer end -->
+                            </div>
+        
+                        </div>
+                        <!-- sidebar end -->
                     </div>
-                    <!-- tranding style card end -->
-                    <!-- tranding style card -->
-                    <div id="card" class="flex justify-start p-1 ">
-                        <div id="serial">
-                            <span class="mr-5 text-3xl text-gray-300">03</span>
-                        </div>
-                        <div id="content" class="">
-                            <span class="text-sm leading-8 text-black"> <a href="#"><img
-                                        src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
-                                </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
-                            <div class="font-bold text-black">
-                                <a href="#">I created my own YouTube algorithm (to stop me wasting time)</a>
-                            </div>
-                            <div class="text-sm leading-8 text-gray-600">
-                                Nov 23 · 9 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- tranding style card end -->
-                    <!-- tranding style card -->
-                    <div id="card" class="flex justify-start p-1 ">
-                        <div id="serial">
-                            <span class="mr-5 text-3xl text-gray-300">04</span>
-                        </div>
-                        <div id="content" class="">
-                            <span class="text-sm leading-8 text-black"> <a href="#"><img
-                                        src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
-                                </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
-                            <div class="font-bold text-black">
-                                <a href="#">I created my own YouTube algorithm (to stop me wasting time)</a>
-                            </div>
-                            <div class="text-sm leading-8 text-gray-600">
-                                Nov 23 · 9 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- tranding style card end -->
-                    <!-- tranding style card -->
-                    <div id="card" class="flex justify-start p-1 ">
-                        <div id="serial">
-                            <span class="mr-5 text-3xl text-gray-300">05</span>
-                        </div>
-                        <div id="content" class="">
-                            <span class="text-sm leading-8 text-black"> <a href="#"><img
-                                        src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
-                                </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
-                            <div class="font-bold text-black">
-                                <a href="#">I created my own YouTube algorithm (to stop me wasting time)</a>
-                            </div>
-                            <div class="text-sm leading-8 text-gray-600">
-                                Nov 23 · 9 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- tranding style card end -->
-                    <!-- tranding style card -->
-                    <div id="card" class="flex justify-start p-1 ">
-                        <div id="serial">
-                            <span class="mr-5 text-3xl text-gray-300">06</span>
-                        </div>
-                        <div id="content" class="">
-                            <span class="text-sm leading-8 text-black"> <a href="#"><img
-                                        src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
-                                </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
-                            <div class="font-bold text-black">
-                                <a href="#">I created my own YouTube algorithm (to stop me wasting time)</a>
-                            </div>
-                            <div class="text-sm leading-8 text-gray-600">
-                                Nov 23 · 9 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- tranding style card end -->
-                </div>
+                    <!-- 2 columns end -->
+                </main>             
             </div>
-            <!-- Tranding now end -->
-            <!-- 2 columns -->
-            <div id="2-columns" class="grid grid-cols-1 px-4 py-10 md:grid-cols-3 md:px-16">
-                <!-- Blog List -->
-                <div id="blog-list" class="col-span-2 mb-4 border-b md:pr-10 md:border-b-0">
-                    <!-- Blog post card -->
-                    <div class="flex p-1 mb-6 flex-between justify-items-center">
-                        <div class="overflow-hidden">
-                            <span class="text-xs text-black md:text-sm"> <a href="#"><img
-                                        src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
-                                </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
-                            <div id="content">
-                                <h2 class="text-xs font-bold text-black md:text-2xl">20 Things Most People Learn Too
-                                    Late In Life</h2>
-                                <div class="mb-2">
-                                    Life is a journey of twists and turns, peaks and valleys, mountains to climb and
-                                    oceans to explore.
-                                </div>
-                                <div class="text-xs text-gray-600">
-                                    Oct 16 · 5 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
-                                    <img src="img/bookmark.svg" alt="bookmark" class="inline float-right text-gray-600">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="items-center px-5">
-                            <img class="object-cover w-full h-full" src="http://lorempixel.com/300/200" alt="blog">
-                        </div>
-                    </div>
-                    <!-- Blog post card end -->
-                    <!-- Blog post card -->
-                    <div class="flex p-1 mb-6 flex-between justify-items-center">
-                        <div class="">
-                            <span class="text-xs text-black md:text-sm"> <a href="#"><img
-                                        src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
-                                </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
-                            <div id="content">
-                                <h2 class="text-xs font-bold text-black md:text-2xl">20 Things Most People Learn Too
-                                    Late In Life</h2>
-                                <div class="mb-2">
-                                    Life is a journey of twists and turns, peaks and valleys, mountains to climb and
-                                    oceans to explore.
-                                </div>
-                                <div class="text-xs text-gray-600">
-                                    Oct 16 · 5 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
-                                    <img src="img/bookmark.svg" alt="bookmark" class="inline float-right text-gray-600">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="items-center px-5">
-                            <img class="object-cover w-full h-full" src="http://lorempixel.com/300/200" alt="blog">
-                        </div>
-                    </div>
-                    <!-- Blog post card end -->
-                    <!-- Blog post card -->
-                    <div class="flex p-1 mb-6 flex-between justify-items-center">
-                        <div class="">
-                            <span class="text-xs text-black md:text-sm"> <a href="#"><img
-                                        src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
-                                </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
-                            <div id="content">
-                                <h2 class="text-xs font-bold text-black md:text-2xl">20 Things Most People Learn Too
-                                    Late In Life</h2>
-                                <div class="mb-2">
-                                    Life is a journey of twists and turns, peaks and valleys, mountains to climb and
-                                    oceans to explore.
-                                </div>
-                                <div class="text-xs text-gray-600">
-                                    Oct 16 · 5 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
-                                    <img src="img/bookmark.svg" alt="bookmark" class="inline float-right text-gray-600">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="items-center px-5">
-                            <img class="object-cover w-full h-full" src="http://lorempixel.com/300/200" alt="blog">
-                        </div>
-                    </div>
-                    <!-- Blog post card end -->
-                    <!-- Blog post card -->
-                    <div class="flex p-1 mb-6 flex-between justify-items-center">
-                        <div class="">
-                            <span class="text-xs text-black md:text-sm"> <a href="#"><img
-                                        src="http://lorempixel.com/20/20" class="inline mr-2 rounded" />Chris Lovejoy
-                                </a> <span class="text-gray-600">in</span> <a href=#"> Towards Data Science </a></span>
-                            <div id="content">
-                                <h2 class="text-xs font-bold text-black md:text-2xl">20 Things Most People Learn Too
-                                    Late In Life</h2>
-                                <div class="mb-2">
-                                    Life is a journey of twists and turns, peaks and valleys, mountains to climb and
-                                    oceans to explore.
-                                </div>
-                                <div class="text-xs text-gray-600">
-                                    Oct 16 · 5 min read <img src="img/star.svg" alt="star" class="inline text-gray-600">
-                                    <img src="img/bookmark.svg" alt="bookmark" class="inline float-right text-gray-600">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="items-center px-5">
-                            <img class="object-cover w-full h-full" src="http://lorempixel.com/300/200" alt="blog">
-                        </div>
-                    </div>
-                    <!-- Blog post card end -->
-
-                </div>
-                <!-- Blog list end -->
-                <div id="sidebar" class="px-10">
-                    <div class="md:sticky top-1/4">
-                        <!-- Tags -->
-                        <div id="tags" class="mb-8 border-b">
-                            <h2 class="text-xs font-bold text-black">DISCOVER MORE OF WHAT MATTERS TO YOU</h2>
-                            <div class="flex flex-wrap flex-grow mb-4 space-x-1 space-y-1">
-                                <a href="#"
-                                    class="px-3 py-2 text-sm text-gray-500 border border-gray-300 rounded ">Self</a>
-                                <a href="#"
-                                    class="px-3 py-2 text-sm text-gray-500 border border-gray-300 rounded ">Relationships</a>
-                                <a href="#" class="px-3 py-2 text-sm text-gray-500 border border-gray-300 rounded ">Data
-                                    Science</a>
-                                <a href="#"
-                                    class="px-3 py-2 text-sm text-gray-500 border border-gray-300 rounded ">Programming</a>
-                                <a href="#"
-                                    class="px-3 py-2 text-sm text-gray-500 border border-gray-300 rounded ">Health</a>
-                            </div>
-                            <a href="#" class="text-green-700">See all topics</a>
-                        </div>
-                        <!-- Tags end -->
-                        <!-- sidebar footer -->
-                        <div id="sidebar-footer" class="text-gray-500 font-sherif">
-                            <ul class="flex flex-wrap space-x-5">
-                                <li> <a href="#">Help</a> </li>
-                                <li> <a href="#">Status</a> </li>
-                                <li> <a href="#">Writters</a></li>
-                                <li> <a href="#">Blog</a></li>
-                                <li> <a href="#">Carrers</a></li>
-                                <li> <a href="#">Privacy</a></li>
-                                <li> <a href="#">Terms</a></li>
-                                <li> <a href="#">About</a></li>
-                            </ul>
-                        </div>
-                        <!-- sidebar footer end -->
-                    </div>
-
-                </div>
-                <!-- sidebar end -->
-            </div>
-            <!-- 2 columns end -->
-        </main>
+        </div>
         <!-- main content section end -->
     </div>
     <!-- site container end -->

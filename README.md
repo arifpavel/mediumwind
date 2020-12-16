@@ -12,7 +12,7 @@ A perfect [medium]('https://medium.com/) clone based on [Tailwind 2]('https://ta
 - Roboto font family from Google Fonts.
 
 ### License
-[MIT](') Licensed.
+[MIT](https://github.com/arifpavel/mediumwind/blob/dev/LICENSE) Licensed.
 
 #### You can support me to do more!
 <a href="https://www.buymeacoffee.com/arifpavel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 60px !important;"></a>
